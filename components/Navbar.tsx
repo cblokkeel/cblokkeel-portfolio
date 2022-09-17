@@ -17,7 +17,7 @@ const navbarLinks = [
 
 const Navbar = () => {
     return (
-        <div className='h-24 md:h-48 flex justify-between items-center text-cream'>
+        <div className='h-24 md:h-48 w-full px-24 flex justify-between items-center text-cream fixed'>
             <h1 className="font-bold text-4xl">Logo</h1>
             <Navlinks links={navbarLinks} />
         </div>
