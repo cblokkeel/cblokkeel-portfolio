@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
       <Navbar />
-      <div className='h-screen px-24 mx-auto'>
+      <div className='h-screen px-12 md:px-18 lg:px-24 mx-auto'>
         <Hero />
         <Hero />
       </div>
