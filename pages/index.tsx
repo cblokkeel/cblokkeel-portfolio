@@ -13,7 +13,6 @@ const Home: NextPage = () => {
       <Navbar />
       <div className='h-screen px-12 md:px-18 lg:px-24 mx-auto'>
         <Hero />
-        <Hero />
       </div>
     </>
   )

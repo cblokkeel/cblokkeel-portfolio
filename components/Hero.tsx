@@ -17,7 +17,7 @@ const Hero = () => {
             transition: {
                 type: "spring",
                 damping: 12,
-                stiffness: 200,
+                stiffness: 100,
             },
         },
         hidden: {
@@ -42,10 +42,10 @@ const Hero = () => {
                     className="font-mono text-custom-pink mb-1 text-sm md:text-md lg:text-lg"
                     variants={child}>Je suis</motion.p>
                 <motion.h1
-                    className="font-bold text-cream text-4xl md:text-7xl lg:text-9xl mb-2"
+                    className="font-bold text-cream text-4xl md:text-7xl lg:text-9xl mb-1 md:mb-2"
                     variants={child}>Colin Blokkeel</motion.h1>
                 <motion.h3
-                    className="font-bold text-custom-purple-300 text-2xl md:text-4xl lg:text-6xl mb-8"
+                    className="font-bold text-custom-purple-300 text-2xl md:text-4xl lg:text-6xl mb-2 md:mb-4 lg:md-8"
                     variants={child}>Développeur web fullstack</motion.h3>
                 <motion.p
                     className="text-custom-purple-300"
